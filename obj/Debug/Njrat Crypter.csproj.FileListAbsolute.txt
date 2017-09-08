@@ -1,0 +1,18 @@
+C:\Users\Ten\Documents\Visual Studio 2015\Projects\Tool Exploit\Njrat Crypter\bin\Debug\Njrat Crypter.exe.config
+C:\Users\Ten\Documents\Visual Studio 2015\Projects\Tool Exploit\Njrat Crypter\bin\Debug\Njrat Crypter.exe
+C:\Users\Ten\Documents\Visual Studio 2015\Projects\Tool Exploit\Njrat Crypter\bin\Debug\Njrat Crypter.pdb
+C:\Users\Ten\Documents\Visual Studio 2015\Projects\Tool Exploit\Njrat Crypter\obj\Debug\Njrat_Crypter.Properties.Resources.resources
+C:\Users\Ten\Documents\Visual Studio 2015\Projects\Tool Exploit\Njrat Crypter\obj\Debug\Njrat Crypter.csproj.GenerateResource.Cache
+C:\Users\Ten\Documents\Visual Studio 2015\Projects\Tool Exploit\Njrat Crypter\obj\Debug\Njrat Crypter.exe
+C:\Users\Ten\Documents\Visual Studio 2015\Projects\Tool Exploit\Njrat Crypter\obj\Debug\Njrat Crypter.pdb
+C:\Users\Ten\Documents\Visual Studio 2015\Projects\Tool Exploit\Njrat Crypter\obj\Debug\Njrat_Crypter.cryptNj.resources
+C:\Users\Ten\Documents\Visual Studio 2015\Projects\Tool Exploit\Njrat Crypter\obj\Debug\Njrat Crypter.csprojResolveAssemblyReference.cache
+G:\[PROJET C#]\Crypter example Runtime bypass\Njrat Crypter\bin\Debug\Njrat Crypter.exe.config
+G:\[PROJET C#]\Crypter example Runtime bypass\Njrat Crypter\obj\Debug\Njrat Crypter.exe
+G:\[PROJET C#]\Crypter example Runtime bypass\Njrat Crypter\obj\Debug\Njrat Crypter.pdb
+G:\[PROJET C#]\Crypter example Runtime bypass\Njrat Crypter\bin\Debug\Njrat Crypter.exe
+G:\[PROJET C#]\Crypter example Runtime bypass\Njrat Crypter\bin\Debug\Njrat Crypter.pdb
+G:\[PROJET C#]\Crypter example Runtime bypass\Njrat Crypter\obj\Debug\Njrat Crypter.csprojResolveAssemblyReference.cache
+G:\[PROJET C#]\Crypter example Runtime bypass\Njrat Crypter\obj\Debug\Njrat_Crypter.cryptNj.resources
+G:\[PROJET C#]\Crypter example Runtime bypass\Njrat Crypter\obj\Debug\Njrat_Crypter.Properties.Resources.resources
+G:\[PROJET C#]\Crypter example Runtime bypass\Njrat Crypter\obj\Debug\Njrat Crypter.csproj.GenerateResource.Cache

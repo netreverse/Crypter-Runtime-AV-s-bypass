@@ -1,0 +1,11 @@
+G:\[PROJET C#]\Crypter example Runtime bypass\Njrat Crypter\bin\Debug\Server Crypter.exe.config
+G:\[PROJET C#]\Crypter example Runtime bypass\Njrat Crypter\obj\Debug\Server_Crypter.Properties.Resources.resources
+G:\[PROJET C#]\Crypter example Runtime bypass\Njrat Crypter\obj\Debug\Server Crypter.csproj.GenerateResource.Cache
+G:\[PROJET C#]\Crypter example Runtime bypass\Njrat Crypter\bin\Debug\Server Crypter.exe
+G:\[PROJET C#]\Crypter example Runtime bypass\Njrat Crypter\bin\Debug\Server Crypter.pdb
+G:\[PROJET C#]\Crypter example Runtime bypass\Njrat Crypter\obj\Debug\Server_Crypter.cryptNj.resources
+G:\[PROJET C#]\Crypter example Runtime bypass\Njrat Crypter\obj\Debug\Server Crypter.exe
+G:\[PROJET C#]\Crypter example Runtime bypass\Njrat Crypter\obj\Debug\Server Crypter.pdb
+G:\[PROJET C#]\Crypter example Runtime bypass\Server Crypter\bin\Debug\Server Crypter.exe.config
+G:\[PROJET C#]\Crypter example Runtime bypass\Server Crypter\obj\Debug\Server Crypter.exe
+G:\[PROJET C#]\Crypter example Runtime bypass\Server Crypter\obj\Debug\Server Crypter.pdb

